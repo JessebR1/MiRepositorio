@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  min-height: 100dvh;
+  display: grid;
+  font-family: "Roboto",
+    sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  /* font-style: italic; */
+  font-variation-settings:
+    "wdth" 100;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto repeat(6,1fr) auto;
+  grid-template-areas:
+    "header"
+    "converting-section"
+    "feature-section"
+    "why-choose-us-section"
+    "review-section"
+    "faq-section"
+    "cta-heading-section"
+    "footer"
+  ;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  height: 70px;
+  margin-bottom: 10px;
+  background:rgb(243, 243, 243);
+}
+nav>ul{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  list-style-type: none;
+  text-align: center;
+  width: 80%;
+}
+nav>ul>li>a{
+  color: black;
+  text-decoration: none;
+}
+header>button{
+  color: white;
+  border-radius: 20px; 
+  height: 30px;
+  width: 80px;
+  background: black;
+  border: none;
+}
+
+#converting-section{
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.imgderecha{
+  width: 230px;
+}
+.tituloHero{
+  color: black;
+}
+.botonesHero a{
+  text-decoration: none;
+  color: black;
+}
+.botonesHero{
+  background: rgb(236, 236, 236);
+  width: 320px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.a-archivos{
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 115px;
+  padding: 3px;
+}
+.textoHero{
+  color: rgb(117, 117, 117);
+}
+#publicidad{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#publicidad img{
+  width: 35px;
+}
+.botonesdescarga{
+  display: flex;
+  align-items: center;
+  border: none;
+  gap: 10px;
+}
+.botonesdescarga button{
+  color: white;
+  border-radius: 20px; 
+  height: 30px;
+  width: 150px;
+  background: black;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+}
+#descarga{
+  color: black;
+  text-decoration: none;
+}
+
+#weare{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  color: rgb(117, 117, 117);
+  height: 100px;
+}
+#weare img{
+  width: 30px;
+}
+#feature-section{
+  margin: auto;
+  width: 80%;
+}
+#feature-section-container-title h2{
+  font-size: 35px;
+  color: rgb(46, 46, 46);
+}
+#feature-section-container-title{
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+}
+#features-section-cards-container{
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;  
+  margin-top: 20px;
+  gap: 20px;
+}
+.features-section-cards-container-card{
+  padding: 20px;
+  background: rgb(243, 243, 243);
+  border-radius: 15px;
+}
+.dosfeatures{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.dosfeatures img{
+  text-align: center;
+}
+#why-choose-us-section{
+  margin: auto;
+  gap: 40px;
+}
+#why-choose-us-section-title-container{
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  color: rgb(117, 117, 117);
+}
+#why-choose-us-section-title-container h2{
+  font-size: 35px;
+  color: rgb(46, 46, 46);
+}
+.why-choose-us-section-cards-container{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.why-choose-us-section-cards-container-card{
+  margin-top: 50px;
+}
+
+#review-section{
+  margin: auto;
+}
+
+/* css para Review Section */
+.review-section{
+  margin: auto;
+}
+.review-section-tittle{
+  text-align: center;
+}
+#review-section-carousel{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 240px;
+}
+.review-section-carousel--card{
+  background: rgb(226, 226, 226);
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+} 
+.review-section-carousel--card-sub-content{
+  gap: 10px;
+  display: flex;
+}
+.review-section-carousel--card>.star{
+  width: 20px;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgb(224, 224, 224);
+  height: 70px;
+  gap: 120px;
+}
+.textofooter{
+  color: rgb(78, 78, 78);
+  text-align: left;
+}
+.footerlink{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  text-align: right;
+}
+.footerlink a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
