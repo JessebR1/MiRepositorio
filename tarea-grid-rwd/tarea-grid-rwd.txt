@@ -1,0 +1,33 @@
+CSS Grid (Fácil)
+1. Crea una rejilla de 2x2 con celdas de igual tamaño.
+2. Define una rejilla con 3 columnas: la primera de 100px, la segunda 1fr, la tercera 2fr.
+3. Crea una rejilla con 2 filas de auto y 1 fila de 200px.
+4. Añade un gap de 15px entre todas las celdas de una rejilla.
+5. Coloca un ítem grid para que abarque las dos primeras columnas de la primera fila.
+6. Nombra tres áreas en grid-template-areas: enc, cuerpo, pie. Asígnalas.
+7. Centra el contenido de todos los ítems grid horizontalmente usando justify-items.
+8. En una rejilla de 3 columnas, coloca un ítem en la segunda columna y segunda fila.
+9. Haz que un ítem grid abarque 2 filas.
+10. Define una rejilla con 4 columnas usando la función repeat().
+CSS Grid (Medio)
+1. Crea un layout de "dashboard" básico con una barra lateral (sidebar) y un área de contenido principal (main-content) usando grid-template-areas.
+2. Diseña una galería de imágenes responsiva donde las imágenes tienen un tamaño mínimo y se ajustan para llenar el contenedor (usando auto-fit o auto-fill y minmax).
+3. Superpón un texto promocional sobre una imagen de producto usando Grid.
+4. Crea un calendario mensual (solo la estructura de celdas). El primer día puede no empezar en la primera celda de la rejilla.
+5. Implementa un layout donde un artículo principal ocupa 2/3 del ancho y una barra lateral de artículos relacionados ocupa 1/3.
+6. Diseña una sección de "equipo" con fotos y nombres. Cada miembro ocupa una celda, pero un miembro "destacado" podría ocupar un área más grande.
+7. Crea una estructura para un formulario complejo, alineando etiquetas y campos en una rejilla.
+8. Simula un tablero de ajedrez (8x8) solo con divs y CSS Grid.
+9. Define una rejilla donde el contenido se alinea a la end del eje de bloque y al center del eje en línea dentro de cada celda.
+10. Crea un layout donde tienes un header, un footer, y en medio, tres columnas. La columna del medio debe tener un ancho mínimo pero ser flexible. Las laterales de ancho fijo.
+Responsive Web Design (RWD con Flexbox/Grid)
+1. Una barra de navegación que es horizontal en desktop (logo izq, enlaces der) y en móvil el logo está arriba y los enlaces se apilan debajo.
+2. Una galería de 3 columnas en desktop, 2 en tablet y 1 en móvil.
+3. Un layout de artículo con imagen a la izquierda y texto a la derecha en desktop. En móvil, la imagen se muestra arriba del texto.
+4. Un pie de página con 4 secciones. En desktop están en una fila. En móvil se apilan de dos en dos.
+5. Un componente "tarjeta de precio" que muestra 3 planes. En desktop están en fila, en móvil se apilan.
+6. Ajusta el tamaño de fuente base (html { font-size: ... }) usando media queries para mejorar la legibilidad en diferentes dispositivos.
+7. Cambia el flex-direction de un contenedor de row a column en un breakpoint específico.
+8. Usa grid-template-areas para definir un layout completamente diferente para móvil y para desktop (ej. una barra lateral que se mueve al fondo en móvil).
+9. Oculta ciertos elementos decorativos en pantallas pequeñas usando display: none; dentro de una media query.
+10. Crea un layout "Holy Grail". En móvil, haz que la barra de navegación izquierda y la barra de anuncios derecha se apilen debajo del contenido principal, manteniendo el header y footer.
